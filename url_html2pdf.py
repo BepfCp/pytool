@@ -11,4 +11,4 @@ def url_to_pdf(url, to_file):
     print('完成')
 
 # 这里传入我知乎专栏文章url，转换为pdf
-url_to_pdf(r'https://zhuanlan.zhihu.com/p/386929820', 'out_1.pdf')
+url_to_pdf(r'https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html', 'out_1.pdf')
