@@ -10,5 +10,5 @@ def url_to_pdf(url, to_file):
     pdfkit.from_url(url, to_file, configuration=config)
     print('完成')
 
-# 这里传入我知乎专栏文章url，转换为pdf
+# test
 url_to_pdf(r'https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html', 'out_1.pdf')
