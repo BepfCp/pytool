@@ -17,3 +17,7 @@ Automatically download all the [spinning up](https://spinningup.openai.com/en/la
 ## 4. seaborn_draw.py
 
 a simple yet useful example for drawing picture using seaborn
+
+## 5. 2to3.py
+
+Walk through all the .py files in the provided dictionary, and convert the python2 syntax to python3 syntax
