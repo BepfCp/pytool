@@ -17,7 +17,7 @@ soup = bf(spinningup_html.content, 'lxml')
 papers = soup.find_all(name='p')
 
 pattern = re.compile(r'[()](.*?)[)]', re.S)
-with open('icml2022.csv', 'w', encoding='utf-8', newline='') as csvfile:
+with open('out/icml2022.csv', 'w', encoding='utf-8', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
     writer.writerow(['title', 'authors', 'institues'])
     for paper in papers:
@@ -27,7 +27,7 @@ with open('icml2022.csv', 'w', encoding='utf-8', newline='') as csvfile:
             authors, institutes = [], []
             for info in infos:
                 institute = re.findall(pattern, info)
-                if not institute in institutes:
+                if not institute[0] in institutes:
                     institutes += institute
                 author = info[:info.find('(')].strip()
                 authors.append(author)
