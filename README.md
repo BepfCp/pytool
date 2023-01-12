@@ -29,3 +29,7 @@ Decrypt PDF files
 ## 7. pdf_crawler.py
 
 Crawl Accepted Papers' Info from ICML, NeurIPS
+
+## 8. decompress.py
+
+Decompress .zip and .rar files
