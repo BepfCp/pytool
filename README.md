@@ -33,3 +33,7 @@ Crawl Accepted Papers' Info from ICML, NeurIPS
 ## 8. decompress.py
 
 Decompress .zip and .rar files
+
+## 9. ppt2pdf.py
+
+Convert PPT to PDF, with every page a new PDF.
