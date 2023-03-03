@@ -37,3 +37,7 @@ Decompress .zip and .rar files
 ## 9. ppt2pdf.py
 
 Convert PPT to PDF, with every page a new PDF.
+
+## 10. txt2csv.py
+
+Convert `.txt` to `.csv`
